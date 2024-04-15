@@ -17,7 +17,7 @@ Now you can test this contract [deployed on Sepolia](https://sepolia.etherscan.i
 
    First, you will need to execute the `buildMessageAndCalculateTransferFee` function to determine how much ETH you need to send to cover the fees. You will need the `Destination Chain Selector` and the `Token Address` (CCIP-BnM or CCIP-LnM). Note that the `Token Address` needs to be for the current network (Sepolia).
 
-   _The `Destination Chain Selector` can be found on [Chainlink Docs](https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#avalanche-fuji)._
+   _The `Destination Chain Selector` can be found on [Chainlink Docs](https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#avalanche-fuji)._\
    **`CCIP-BnM` Address on Sepolia:** 0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05\
    **`CCIP-LnM` Address on Sepolia:** 0x466D489b6d36E7E3b824ef491C225F5830E81cC1
 
