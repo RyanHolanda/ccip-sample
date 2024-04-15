@@ -1,0 +1,64 @@
+{
+    "Import VRFConsumerBaseV2": {
+        "scope": "solidity",
+        "prefix": "importvrf",
+        "body": "import {VRFConsumerBaseV2} from \"@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol\";",
+        "description": "Import VRFConsumerBaseV2 from @chainlink"
+    },
+
+    "Import VRF Coordinator Interface": {
+        "scope": "solidity",
+        "prefix": "importvrfci",
+        "body": "import {VRFCoordinatorV2Interface} from \"@chainlink/contracts/src/v0.8/vrf/interfaces/VRFCoordinatorV2Interface.sol\";",
+        "description": "Import VRF Coordinator Interface from @chainlink"
+    },
+
+    "Import VRF Coordinator Mock": {
+        "scope": "solidity",
+        "prefix": "importvrfcm",
+        "body": "import {VRFCoordinatorV2Mock} from \"@chainlink/contracts/src/v0.8/vrf/mocks/VRFCoordinatorV2Mock.sol\";",
+        "description": "Import VRF Coordinator Mock from @chainlink"
+    },
+
+    "Import VRF v2 Wrapper Consumer Base": {
+        "scope": "solidity",
+        "prefix": "importvrfv2wcb",
+        "body": "import {VRFV2WrapperConsumerBase} from \"@chainlink/contracts/src/v0.8/vrf/VRFV2WrapperConsumerBase.sol\";",
+        "description": "Import VRF v2 Wrapper Consumer Base from @chainlink"
+    },
+
+    "Import Link token interface solc 0.8.0": {
+        "scope": "solidity",
+        "prefix": "importlinki",
+        "body": "import {LinkTokenInterface} from \"@chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol\";",
+        "description": "Import Link token interface from @chainlink (solc 0.8.0)"
+    },
+
+    "Import Mock Link Token": {
+        "scope": "solidity",
+        "prefix": "importlinkm",
+        "body": "import {MockLinkToken} from \"@chainlink/contracts/src/v0.8/mocks/MockLinkToken.sol\";",
+        "description": "Import Mock Link Token from @chainlink"
+    },
+
+    "Import ERC677 Receiver Interface": {
+        "scope": "solidity",
+        "prefix": "importerc677r",
+        "body": "import {IERC677Receiver} from \"@chainlink/contracts/src/v0.8/shared/interfaces/IERC677Receiver.sol\";",
+        "description": "Import ERC677 Receiver Interface from @chainlink"
+    },
+
+    "Import CCIP Router Client Interface": {
+        "scope": "solidity",
+        "prefix": "importcciprci",
+        "body": "import {IRouterClient} from \"@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol\";",
+        "description": "Import the CCIP Router Client interface from @chainlink"
+    },
+
+    "Import CCIP Client": {
+        "scope": "solidity",
+        "prefix": "importccipc",
+        "body": "import {Client} from \"@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol\";",
+        "description": "Import the CCIP Client from @chainlink"
+    } 
+ }
